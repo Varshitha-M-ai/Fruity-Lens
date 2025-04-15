@@ -26,5 +26,5 @@ def preprocess_dataset(data_dir, img_size=(128, 128)):
     return train_data, val_data
 
 if __name__ == "__main__":
-    data_dir =r"C:\Users\Lenovo\Desktop\Food_scan\data\images"
+    data_dir =r"C:\Users\Lenovo\Desktop\Fruity Lens\data\images"
     train_data, val_data = preprocess_dataset(data_dir)
