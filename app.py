@@ -17,7 +17,7 @@ def load_trained_model():
     return load_model('models/food_scan_model.h5')
 
 # Define the path to your dataset
-data_dir = r"C:\Users\Lenovo\Desktop\Food_scan\data\images"
+data_dir = r"C:\Users\Lenovo\Desktop\Fruity Lens\data\images"
 class_labels = sorted(os.listdir(data_dir))  # Get food class names from subfolder names
 
 # Function to predict the uploaded image
